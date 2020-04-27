@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Layout from '../components/Layout';
+import Layout from '../components/Layout/';
 import { Switch, Route } from 'react-router-dom';
 import ModelsPage from '../containers/ModelsPage';
 import OneModelPage from '../containers/OneModelPage';

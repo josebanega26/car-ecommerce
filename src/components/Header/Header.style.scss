@@ -1,5 +1,56 @@
+$secondary : #eb0a1e;
+
+.center{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 .header{
     height: 70px;
     border: 1px solid #f7f7f7;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 25px;
+    @media screen and (max-width:767px){
+        padding: 0 35px 0 25px;
+    }
+
+    .left-side{
+    display: flex;
+    align-items: center;
+    height: inherit;
+        .option{
+        @extend .center;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-decoration: none;
+        padding: 0 2rem;
+        height: inherit;
+        color: #191919;
+        &:hover, &:active{
+            color: $secondary ;
+            border-bottom: 2px solid $secondary ;
+        }
+        }
+        .first{
+            margin-left: 2.5rem;
+        }
+    }
+    .right-side{
+        span{
+            padding-right: 12px;
+        }
+        .dropdown-icon{
+        height: 18px;
+        cursor: pointer;
+        }
+    }
+    
 }
