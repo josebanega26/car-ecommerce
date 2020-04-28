@@ -1,0 +1,10 @@
+.title_container{
+    margin: 85px 0 80px;
+    @media (max-width:500px) {
+        margin: 40px 0 41px;
+    }
+}
+.cars_container{
+    margin-top: 75px;
+    margin-bottom: 100px;
+}

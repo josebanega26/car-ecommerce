@@ -1,0 +1,53 @@
+.autoCard_container{
+    min-height: 230px;
+    img {
+        width: 268px;
+    }
+    &:hover .card_button--container{
+        display: block;
+    }
+    &:hover .card_title{
+        color: #eb0a1e;
+    }
+    .card_title{
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.07;
+        letter-spacing: -0.65px;
+        text-align: center;
+        color: #000000;
+        margin: 0 0 8px 0;
+    }  
+    .card_subtitle{
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.28px;
+        text-align: center;
+        color: #191919;
+        margin: 0;
+    }
+    .card_button--container{
+        display: none;
+        text-align: center;
+    }
+    .card_button{
+        cursor: pointer;
+        width: 152px;
+        height: 34px;
+        border-radius: 40px;
+        border: none;
+        background-color: #191919;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-weight: 600;
+    }
+
+}
