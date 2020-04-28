@@ -18,7 +18,7 @@ function Header() {
   return (
     <>
       {dropdownState && <Backdrop onClick={closeDropdown} />}
-      {dropdownState && <Dropdown handlerClick={closeDropdown} />}
+      <Dropdown show={dropdownState} handlerClick={closeDropdown} />
       <header className='header'>
         <nav className='left-side'>
           <Link to='/'>
