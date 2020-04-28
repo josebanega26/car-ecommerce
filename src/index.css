@@ -22,6 +22,7 @@ code {
   line-height: normal;
   letter-spacing: normal;
   color: #191919;
+  text-decoration: none;
 }
 
 .slide-in-right-enter {

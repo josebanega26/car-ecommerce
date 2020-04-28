@@ -3,7 +3,7 @@ import './Dropdown.style.scss';
 import CloseIcon from '../../assets/icons/close.png';
 import ReactDom from 'react-dom';
 import { CSSTransition } from 'react-transition-group';
-
+import NavLinks from '../NavLinks';
 const Dropdown = ({ handlerClick, show }) => {
   const content = (
     <CSSTransition
@@ -14,8 +14,15 @@ const Dropdown = ({ handlerClick, show }) => {
       unmountOnExit
     >
       <aside className='dropdown' onClick={handlerClick}>
-        <img src={CloseIcon} style={{ width: '15px' }} alt='close Icon'></img>
-        dropdown
+        <ul>
+          <span className='text'>Close</span>
+          <img
+            src={CloseIcon}
+            className='dropdown_image'
+            alt='close Icon'
+          ></img>
+        </ul>
+        <NavLinks></NavLinks>
       </aside>
     </CSSTransition>
   );

@@ -24,23 +24,21 @@ function Header() {
           <Link to='/'>
             <Logo />
           </Link>
-          <Link className='first option' to=''>
+          <Link className='first option header-navigation__text' to=''>
             Modelos
           </Link>
-          <Link className='option' to='model'>
+          <Link className='option header-navigation__text' to='model'>
             Ficha de Modelo
           </Link>
         </nav>
         <nav className='right-side'>
-          <p className='text'>
-            <span>Menu</span>
-            <img
-              onClick={OpenDropDown}
-              src={Hamburger}
-              className='dropdown-icon'
-              alt='Dropdown Select'
-            />
-          </p>
+          <p className='header-navigation__text text'>Menu</p>
+          <img
+            onClick={OpenDropDown}
+            src={Hamburger}
+            className='dropdown-icon'
+            alt='Dropdown Select'
+          />
         </nav>
       </header>
     </>
