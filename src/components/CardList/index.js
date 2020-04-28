@@ -1,9 +1,9 @@
 import React from 'react';
-import { cars } from './mock/mock-cars';
+import { cars } from '../../utils/mock/mock-cars';
 import './CardList.style.scss';
 import AutoCard from '../AutoCard/index';
 
-const CardList = (props) => {
+const CardList = () => {
   return (
     <div className='cards-container'>
       {

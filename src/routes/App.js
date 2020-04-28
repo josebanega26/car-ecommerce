@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Layout from '../components/Layout/';
 import { Switch, Route } from 'react-router-dom';
-import ModelsPage from '../containers/ModelsPage';
-import OneModelPage from '../containers/OneModelPage';
-import NotFound from '../containers/NotFound';
+import ModelsPage from '../pages/ModelsPage';
+import OneModelPage from '../pages/OneModelPage';
+import NotFound from '../pages/NotFound';
 
 const App = () => {
   return (

@@ -4,7 +4,7 @@ import imageUrl from './mockImages/camry.png';
 import { withRouter } from 'react-router-dom';
 
 const AutoCard = (props) => {
-  const { model, id, year, price, img, type, history } = props;
+  const { model, id, year, price, img, history } = props;
 
   const goToDetail = (id) => {
     // console.log('withRouter', props);

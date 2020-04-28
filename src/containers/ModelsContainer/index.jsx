@@ -1,8 +1,8 @@
 import React from 'react';
 import Title from '../../components/Title';
 import CardList from '../../components/CardList/index';
-import './ModelsPage.style.scss';
-const ModelsPage = () => {
+
+const ModelContainer = () => {
   return (
     <>
       <section className='title_container'>
@@ -19,4 +19,4 @@ const ModelsPage = () => {
   );
 };
 
-export default ModelsPage;
+export default ModelContainer;
