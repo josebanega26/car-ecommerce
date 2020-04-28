@@ -18,7 +18,10 @@ function NavLinks() {
     <ul className='list_container'>
       {sectionRoutes.map((routes, index) => {
         return (
-          <div key={`${index}`}>
+          <div
+            key={`${index}`}
+            className={index === sectionRoutes.length - 1 ? 'last_list' : ''}
+          >
             <div className='sublist_container'>
               {routes.map(({ path, title }) => {
                 return (
