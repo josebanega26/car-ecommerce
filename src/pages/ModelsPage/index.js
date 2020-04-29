@@ -14,8 +14,6 @@ const ModelsPage = () => {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-
-    return () => {};
   }, []);
   return <ModelsContainerWithSpinner isLoading={loading} />;
 };

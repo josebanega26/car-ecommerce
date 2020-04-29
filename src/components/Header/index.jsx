@@ -24,10 +24,10 @@ function Header() {
           <Link to='/'>
             <Logo />
           </Link>
-          <Link className='first option header-navigation__text' to=''>
+          <Link className='first option header-navigation__text' to='/'>
             Modelos
           </Link>
-          <Link className='option header-navigation__text' to='model'>
+          <Link className='option header-navigation__text' to='/model/0'>
             Ficha de Modelo
           </Link>
         </nav>

@@ -71,4 +71,28 @@ export const cars = [
     img: './mockImages/camry.png',
     type: ['auto', 'comercial'],
   },
+  {
+    model: 'Land Cruiser Prado',
+    id: '10',
+    year: 2017,
+    price: 815900.0,
+    img: './mockImages/camry.png',
+    type: ['auto', 'comercial'],
+  },
+  {
+    model: 'Land Cruiser 200',
+    id: '11',
+    year: 2019,
+    price: 7873100.0,
+    img: './mockImages/camry.png',
+    type: ['auto', 'comercial'],
+  },
+  {
+    model: 'Hilux',
+    id: '12',
+    year: 2020,
+    price: 1507000.0,
+    img: './mockImages/camry.png',
+    type: ['auto', 'comercial'],
+  },
 ];
