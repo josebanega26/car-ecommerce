@@ -7,8 +7,22 @@
     align-items: center;
     grid-auto-flow: dense;
     margin-bottom: 55px;
+    
+    &.reverse > .image_side{
+        grid-column: 2;
+    }
+    &.reverse > .text_side{
+        grid-column: 1;
+    }
+    &.last{
+        margin-bottom: 117px;
+    }
+
     @media (max-width:500px) {
         grid-template-columns: 1fr;
+        &.reverse{
+            grid-template-columns: 1fr;
+        }
     }
     .image_side{
         width: 100%;
@@ -54,14 +68,6 @@
         }
     }
 
-    &.reverse > .image_side{
-        grid-column: 2;
-    }
-    &.reverse > .text_side{
-        grid-column: 1;
-    }
-    &.last{
-        margin-bottom: 117px;
-    }
+    
 
 }

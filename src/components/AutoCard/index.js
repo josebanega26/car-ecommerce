@@ -1,10 +1,9 @@
 import React from 'react';
 import './AutoCard.style.scss';
-import imageUrl from './mockImages/camry.png';
 import { withRouter } from 'react-router-dom';
 
 const AutoCard = (props) => {
-  const { model, id, year, price, img, history } = props;
+  const { model, id, year, price, imageUrl, history } = props;
 
   const goToDetail = (id) => {
     // console.log('withRouter', props);
@@ -14,7 +13,8 @@ const AutoCard = (props) => {
     <div key={id} className='autoCard_container'>
       <p className='card_title'>{model}</p>
       <p className='card_subtitle'>{`${year} | ${price}`}</p>
-      <img src={imageUrl} alt={model} />
+      {/* Change the line below for the real api image url */}
+      <img src={require(`../../assets/images/${imageUrl}.png`)} alt={model} />
       <div className='card_button--container'>
         <button
           className='card_button'

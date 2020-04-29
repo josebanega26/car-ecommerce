@@ -1,6 +1,7 @@
 import React from 'react';
 import './OneModelContainer.style.scss';
 import DescriptionCard from '../../components/DescriptionCard';
+
 const OneModelContainer = () => {
   return (
     <>

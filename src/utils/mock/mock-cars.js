@@ -4,7 +4,7 @@ export const cars = [
     id: '1',
     year: 2019,
     price: 815900.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'etios',
     type: ['auto', 'comercial'],
   },
   {
@@ -12,7 +12,7 @@ export const cars = [
     id: '2',
     year: 2020,
     price: 1038900.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'yaris',
     type: ['auto', 'comercial'],
   },
   {
@@ -20,7 +20,7 @@ export const cars = [
     id: '3',
     year: 2018,
     price: 1430700.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'corolla',
     type: ['auto', 'comercial'],
   },
   {
@@ -28,7 +28,7 @@ export const cars = [
     id: '4',
     year: 2019,
     price: 2882000.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'prius',
     type: ['auto', 'comercial'],
   },
   {
@@ -36,7 +36,7 @@ export const cars = [
     id: '5',
     year: 2018,
     price: 3753200.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'camry',
     type: ['auto', 'comercial'],
   },
   {
@@ -44,7 +44,7 @@ export const cars = [
     id: '6',
     year: 2019,
     price: 3812100.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'toyota-86',
     type: ['auto', 'comercial'],
   },
   {
@@ -52,7 +52,7 @@ export const cars = [
     id: '7',
     year: 2020,
     price: 2596400.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'innova',
     type: ['auto', 'comercial'],
   },
   {
@@ -60,7 +60,7 @@ export const cars = [
     id: '8',
     year: 2019,
     price: 3236200.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'sw-4',
     type: ['auto', 'comercial'],
   },
   {
@@ -68,7 +68,7 @@ export const cars = [
     id: '9',
     year: 2019,
     price: 3170200.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'rav-4',
     type: ['auto', 'comercial'],
   },
   {
@@ -76,7 +76,7 @@ export const cars = [
     id: '10',
     year: 2017,
     price: 815900.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'prado',
     type: ['auto', 'comercial'],
   },
   {
@@ -84,7 +84,7 @@ export const cars = [
     id: '11',
     year: 2019,
     price: 7873100.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'cruiser',
     type: ['auto', 'comercial'],
   },
   {
@@ -92,7 +92,7 @@ export const cars = [
     id: '12',
     year: 2020,
     price: 1507000.0,
-    img: './mockImages/camry.png',
+    imageUrl: 'hilux',
     type: ['auto', 'comercial'],
   },
 ];
