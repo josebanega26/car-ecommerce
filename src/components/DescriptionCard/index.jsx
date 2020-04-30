@@ -6,10 +6,11 @@ const DescriptionCard = ({
   imageUrl = '',
   reverse = false,
   text,
+  className,
 }) => {
   const reverseGrid = reverse ? 'reverse' : '';
   return (
-    <section className={`grid_section ${reverseGrid}`}>
+    <section className={`grid_section ${reverseGrid} ${className} `}>
       <div className='image_side'>
         <img
           src={require('../../assets/images/' + imageUrl + '.jpg')}

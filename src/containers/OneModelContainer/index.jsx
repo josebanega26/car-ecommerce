@@ -1,14 +1,20 @@
 import React from 'react';
 import './OneModelContainer.style.scss';
 import DescriptionCard from '../../components/DescriptionCard';
-
+import DetailsCarousel from '../../components/DetailsCarousel';
 const OneModelContainer = () => {
   return (
     <>
-      <DescriptionCard {...detailMock.main} />
-      <section className='carousel_container'></section>
-      <DescriptionCard {...detailMock.first} reverse={true} />
-      <DescriptionCard {...detailMock.second} />
+      <DescriptionCard {...detailMock.main} className='container' />
+      <section className='carousel_container'>
+        <DetailsCarousel></DetailsCarousel>
+      </section>
+      <DescriptionCard
+        {...detailMock.first}
+        reverse={true}
+        className='container'
+      />
+      <DescriptionCard {...detailMock.second} className='container' />
     </>
   );
 };

@@ -46,7 +46,12 @@ code {
   transition: all 500ms;
 }
 
-
   ::-webkit-scrollbar{
   display: none;
+}
+.container{
+  margin: 0 9.4rem;
+    @media(max-width:500px) {
+        margin: 0 15px;
+    }
 }
