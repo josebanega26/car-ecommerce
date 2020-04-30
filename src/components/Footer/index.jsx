@@ -2,7 +2,10 @@ import React from 'react';
 import './Footer.styles.scss';
 
 const Footer = () => {
-  return <footer className='footer'>Footer</footer>;
+  const year = new Date().getFullYear();
+  return (
+    <footer className='footer'>{year} | Made by Jose Banega with React</footer>
+  );
 };
 
 export default Footer;

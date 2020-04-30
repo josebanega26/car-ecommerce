@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 function NavLinks() {
   const getDivider = (index) => {
-    const actualId = sectionRoutes.length - 1 - index;
+    const actualId = sectionRoutes.length - 2 - index;
     console.log('actualId', actualId);
-    if (actualId) {
+    if (actualId > 0) {
       return <hr />;
     } else {
       return null;

@@ -1,0 +1,8 @@
+.filter_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .filter_by{
+        margin-right: 10px;
+    }
+}

@@ -3,7 +3,7 @@ import { cars } from '../../utils/mock/mock-cars';
 import './CardList.style.scss';
 import AutoCard from '../AutoCard/index';
 
-const CardList = () => {
+const CardList = ({ carsArray }) => {
   return (
     <div className='cards-container'>
       {
